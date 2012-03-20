@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DrupalAppActivity!</string>
+    <string name="app_name">RestWS Prototype</string>
+
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="id">ID</string>
+    
+    <string name="create">New node</string>
+    <string name="load">Load node</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete node</string>
+    <string name="save">Save</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    
+    
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    
+    <string name="dialog_username">Username:</string>
+    <string name="dialog_password">Password:</string>
+    <string name="dialog_uid">UserID:</string>
+    <string name="dialog_drupal_uri">Drupal uri:</string>
+</resources>
