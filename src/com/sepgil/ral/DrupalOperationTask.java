@@ -54,7 +54,6 @@ public abstract class DrupalOperationTask extends AsyncTask<Endpoint, Void, Http
 		
 		// Request a new HTTPRequest and generate a path.
 		HttpRequestBase request = getHttpRequest(endpoint.getUri() + getPath());
-		System.out.println(endpoint.getUri() + getPath());
 		// Add authentication and content type headers.
 		request.setHeader("Authorization", "Basic " + endpoint.getAuth());
 		request.setHeader("Content-Type", "application/json");
